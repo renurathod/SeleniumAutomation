@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="genericlibrary.Listener"/>
+    <listener class-name="genericlibrary.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pageAction.gitHub">
+        <methods>
+          <include name="switchFrame"/>
+        </methods>
+      </class> <!-- pageAction.gitHub -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
